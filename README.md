@@ -15,3 +15,16 @@ Use `pip` to install the required dependencies:
 
 ```bash
 pip install yt-dlp
+brew intall ffmpeg (Mac)
+sudo apt update && sudo apt install ffmpeg -y (Linux)
+
+```
+### Running File In venv
+
+```bash
+python -m venv venv
+source venv/bin/activate  # For macOS/Linux
+.\venv\Scripts\activate  # For Windows
+
+
+```
